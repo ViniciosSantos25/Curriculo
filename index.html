@@ -7,22 +7,68 @@
     <!--CSS BOOTSTRAP 5-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"></link>
 </head>
-<body>
-    <header>
+<body class="bg-dark">
+    <header class="container-fluid bg-black text-white text-center p-5">
         <h1>NOME</h1>
     </header>
-    <main>
-        <section>
-            <img src="" alt="">
-            <h2>Olá mundo!</h2>
-            <p>Aqui vai uma apresentação com nome e objetivos junto com algumas curiosidades e "outros" </p>
+    <main class="container">
+        <section class="text-white">
+            <img src="Imagens/perfil.jpg" alt="Foto de perfil" class="float-end rounded">
+            <h2 class="p-4">Olá mundo</h2>
+            <p class="p-4">
+                Sou Ivonei vinicios e sou estudante na Ulbra, faço curso de Analize e desenvolvimento de sistemas, tudo é muito novo para mim e eu ainda estou me adaptando a isso tudo. Eu moro em Capão da Canoa e como pago a mensalidade da faculdade estou trabalhando em um mercado antes de trocar por algo mais "na area" que estou estudando
+            </p>
         </section><!--Apresentação-->
+        <br>
         <section>
-
+            <section>
+                <button onclick="show('leopoldina')">Leopoldina</button>
+                <section id="leopoldina" style="display: none;">
+                    <p class="text-white">
+                        Um pouco sobre como foi o Leopoldina.     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores id enim animi. Odit, tempore repudiandae sed mollitia, quidem molestiae maxime et dolorum a consequatur non libero, quibusdam cupiditate accusantium beatae!
+                    </p>
+                </section>
+            </section><!--Leopoldina-->
+            <br>
+            <section>
+                <button onclick="show('riachuelo')">Riachuelo</button>
+                <section id="riachuelo" style="display: none;">
+                    <p class="text-white">
+                        Um pouco sobre como foi o Riachuelo.     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus alias nisi molestiae esse sit dicta molestias est at quibusdam voluptatum porro doloribus in recusandae provident minus, numquam placeat saepe neque. 
+                    </p>
+                </section>
+            </section><!--Riachuelo-->
+            <br>
+            <section>
+                <button onclick="show('ulbra')">Ulbra</button>
+                <section id="ulbra" style="display: none;">
+                    <p class="text-white">
+                        Um pouco sobre como é na Ulbra.    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, voluptatibus architecto. Earum soluta, molestias eveniet delectus repellendus consequatur at quam, accusantium, dignissimos repellat saepe? Nemo impedit veniam laudantium quibusdam molestias?
+                    </p>
+                </section>
+            </section><!--Ulbra-->
         </section><!--Educação-->
+        <br>
         <section>
-
+            <section>
+                <button onclick="show('neoTempus')">NeoTempus</button>
+                <section id="neoTempus" style="display: none;">
+                    <p class="text-white">
+                        informação diferente (Preencher corretamente depois )
+                    </p>
+                </section>
+            </section><!--NeoTempus-->
+            <br>
+            <section>
+                <button onclick="show('zaffari')">Zaffari</button>
+                <section id="zaffari" style="display: none;">
+                    <p class="text-white">
+                        informação sobre meu atual emprego (Preeencher corretamente depois)
+                    </p>
+                </section>
+            </section><!--Zaffari-->
         </section><!--Experiencia-->
+        <br>
         <section>
 
         </section><!--Habilidades-->
